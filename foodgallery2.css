@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Pacifico&family=Playpen+Sans:wght@100&family=Vina+Sans&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    height: 40px;
+    background-color:coral;
+    font-family: 'Vina Sans', sans-serif;
+    text-align: center; 
+    padding-top:7px ; 
+    font-size: 25px;   
+}
+.content{
+    border: 1px solid transparent;
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.c{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;  
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+.inside{
+margin-left: 40px;
+height: 220px;
+width:220px;
+border: 1px solid transparent;
+border-radius: 50%;
+
+}
+.pic{
+    height: 220px;
+width:220px;
+border-radius: 50%;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    font-weight: bold;
+    margin-left:75px ;
+    margin-top: 10px;
+}
+.c:hover{
+    box-shadow: 0 0 20px #e41010;
+}
+button:hover{
+    background-color: lightcoral;
+}
